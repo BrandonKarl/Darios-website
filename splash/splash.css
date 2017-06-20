@@ -1,7 +1,12 @@
+/* No links have decoration */
+a {
+    text-decoration: none;
+}
+
 /* Flex container */
 .splash {
     display: flex;
-    height: 100vh;
+    height: 87vh;
     justify-content: center;
     flex-direction: column;
 }
@@ -18,20 +23,34 @@
   /*  font-style: italic; */
 }
 
+/* First image container */
 #splash-image-1 {
-    background-image: linear-gradient(
+    background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('lunenburg.png');
     background-position: 70% 50%;
     background-size: cover;
 	background-repeat: no-repeat;
-
     display: flex;
-    height: 350px;
+    height: 40%;
     width: 100%;
+    opacity: 1;
+    transition: opacity .3s linear;
+    z-index: 99;
 }
 
+/* Change opacity on hover */
+#splash-image-1:hover {
+    opacity: .7;
+}
+
+/* Center text */
+.splash-body {
+    margin: auto;
+}
+
+/* Format text */
 .splash-text {
     color: white;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -43,6 +62,12 @@
     margin: auto;
 }
 
+/* Header, restraunt name*/
+.head {
+    font-size: 50px;
+}
+
+/* Second image container */
 #splash-image-2 {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -54,9 +79,23 @@
 
     margin-top: 5px;
     display: flex;
-    height: 350px;
+    height: 40%;
+    opacity: 1;
+    transition: opacity .3s linear;
 }
 
+/* Change opacity on hover */
+#splash-image-2:hover {
+    opacity: 0.7;
+}
+
+/* Make all links the size of the image */
+.link {
+    width: 100%;
+    display: flex;
+}
+
+/* Separate containers */
 #separator {
     height: auto; 
     width: auto; 

@@ -1,3 +1,4 @@
+/* Body Color */
 body {
 	background-color: #FCCB85;
 }
@@ -120,7 +121,7 @@ body {
 #currently {
 	margin-top: 20px;
 	font-size: 15px;
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 #status {
@@ -142,12 +143,22 @@ body {
 	color: white;
 }
 
+#hours h5 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
 @media only screen and (max-width: 990px) {
 	#hours {
 		text-align: center;
 	}
 	#currently {
 		text-align: center;
+		margin-bottom: 20px;
+	}
+	#hours h5 {
+		margin-bottom: 15px;
 	}
 }
 
@@ -161,11 +172,6 @@ body {
 	margin-bottom: 0;
 }
 
-#hours h5 {
-	font-size: 30px;
-	margin-bottom: 15px;
-	margin-top: 0;
-}
 
 #hours-line {
 	margin-top: 10px;

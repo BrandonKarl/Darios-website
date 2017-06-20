@@ -1,3 +1,7 @@
+body {
+	background-color: #FCCB85;
+}
+
 /* Changes navbar to red */
 .navbar-inverse {
 	background-color: #FCCB85;
@@ -7,14 +11,14 @@
 
 /* Changes links to white */
 .navbar-inverse .navbar-nav>li>a {
-    color: #AF6802;
+	color: #AF6802;
 }
 
 /* Phone icon */
 .navbar-inverse .navbar-nav>li>a>span>span{
-    font-size: 12px;
-    margin-right: 5px;
-    font-size: 17px;
+	font-size: 12px;
+  margin-right: 5px;
+  font-size: 17px;
 }
 
 /* Size of call text */
@@ -24,13 +28,13 @@
 
 /* Changes outline of mobile menu to white */
 .navbar-inverse .navbar-toggle {
-		background-color: #AF6802;
-    border-color: white;
+	background-color: #AF6802;
+  border-color: white;
 }
 
 /* Changes mobile menu hover to beige */
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #AF6802;
+	background-color: #AF6802;
 }
 
 /* Removes padding on brand */
@@ -51,6 +55,9 @@
 #info-bar {
 	background-color: #AF6802;
 	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
 }
 
 #info-bar p {
@@ -58,6 +65,12 @@
 	font-size: 18px;
 	margin-top: 3px;
 	margin-bottom: 3px;
+}
+
+@media only screen and (max-width: 767px) {
+    #phone {
+    	display: none;
+    }
 }
 
 /* Main advertisement */
@@ -83,7 +96,13 @@
 /* Advertisement header */
 #advertisement-container h1 {
 	margin-top: 0;
-	font-size: 140px;
+	margin-bottom: 0;
+	font-size: 135px;
+}
+
+#advertisement-container h2 {
+	margin-top: 0;
+	font-size: 60px;
 }
 
 /* Advertisement text */
@@ -92,8 +111,77 @@
 	font-style: italic;
 }
 
+/* Word "made!" */
 #advertisement-container h3 span{
 	color: #B21509;
 }
+
+/* Currently open or not*/
+#currently {
+	margin-top: 20px;
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+
+#status {
+	color: green;
+}
+
+/* Google map */
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+/* Hours div */
+#hours {
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+	margin-top: 20px;
+	color: white;
+}
+
+@media only screen and (max-width: 990px) {
+	#hours {
+		text-align: center;
+	}
+	#currently {
+		text-align: center;
+	}
+}
+
+#hours h3 {
+	margin-top: 0;
+	font-size: 45px;
+}
+
+#hours h4 {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+#hours h5 {
+	font-size: 30px;
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+#hours-line {
+	margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

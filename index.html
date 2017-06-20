@@ -45,11 +45,12 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
+	<!-- Bar with phone number and address -->
 	<div id="info-bar">
 		<div class="container">
 			<div clas="row">
 				<div class="col-sm-6 text-center">
-					<p>(978) 627-3974</p>
+					<p><span id="phone">(978) 627-3974</span></p>
 				</div>
 				<div class="col-sm-6 text-center">
 					<p>187 River Street, Fitchburg, MA</p>
@@ -58,18 +59,76 @@
 		</div>
 	</div>
 
+	<!-- Main advertisement, name/slogan -->
 	<div id="advertisement">
 		<div id="advertisement-container">
 			<h1>Dario's</h1>
+			<h2>Ristorante and Brick Oven</h2>
 			<h3>Where hand-made is</h3>
 			<h3><span>Made!</span></h3>
 		</div>
 	</div>
 	
-
+	<div id="map-hours">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<p id="currently">Currently: <span id="status">Open</span></p>
+					<div id="map"></div>
+				</div>
+				<div class="col-md-5">
+					<div id="hours">
+						<h3>Hours</h3>
+						<hr id="hours-line">
+						<h4>Monday - Thursday</h4>
+						<h5>11am - 9pm</h5>
+						<h4>Friday - Saturday</h4>
+						<h5>11am - 10pm</h5>
+						<h4>Sunday</h4>
+						<h5>12pm - 9pm</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- jquery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" ssintegrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Currently Open or closed -->
+	<script>
+		var d = new Date();
+		console.log(d.getHours())
+		if(d.getHours() > 21) {
+			document.getElementById("status").innerHTML = "Closed";
+			document.getElementById("status").style.color = "Red";
+		}
+	</script>
+
+	<!-- Google map -->
+	<script>
+		function initMap() {
+		var options = {
+			zoom: 15,
+			center: {
+				lat: 42.5921099,
+				lng: -71.7575723
+			}
+		}
+		var map = new google.maps.Map(document.getElementById('map'), options);
+
+		var marker = new google.maps.Marker({
+			position: {
+				lat: 42.5921099,
+				lng: -71.7575723
+			},
+			map: map
+		})
+	}
+	</script>
+
+	<!-- Google maps API -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2DnAbcXwgfIW1C_g_cMR_ajqhLZa0qwg&callback=initMap"></script>
 
 	<!-- Bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

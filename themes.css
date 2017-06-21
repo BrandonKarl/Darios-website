@@ -14,12 +14,15 @@ body {
 /* Changes links to white */
 .navbar-inverse .navbar-nav>li>a {
 	color: black;
-/*	font-family: 'Josefin Slab', serif; */
-  /*font-family: 'Raleway', sans-serif; */
-  	font-family: 'Quicksand', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 	font-weight: 100;
 	font-size: 15px;
 	letter-spacing: 2px;
+}
+
+/* Link hover color */
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: black;
 }
 
 /* Phone icon */
@@ -29,6 +32,14 @@ body {
   font-size: 17px;
 }
 
+/* Navbar links*/
+.nav-link {
+	padding-bottom: 5px;
+}
+
+.nav-link:hover {
+	border-bottom: 1px solid red;
+}
 /* Size of call text */
 #call {
 	font-size: 20px;
@@ -188,6 +199,7 @@ body {
 
 #hours-line {
 	margin-top: 10px;
+	border-color: red;
 }
 
 

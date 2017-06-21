@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover .nav-link{
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #B21509;
 }
 
 /* Size of call text */
@@ -117,6 +117,40 @@ body {
 	font-size: 55px;
 }
 
+#menu2 h1{
+	color: black;
+}
+
+#menu-hr {
+	margin: 0;
+	border: solid 3px black;
+}
+
+#menu2 .col-sm-6 {
+	padding-left: 0;
+}
+
+#menu2 h1 {
+	font-size: 55px;
+}
+
+#menu3 h1{
+	color: black;
+}
+
+#menu-hr {
+	margin: 0;
+	border: solid 3px black;
+}
+
+#menu3 .col-sm-6 {
+	padding-left: 0;
+}
+
+#menu3 h1 {
+	font-size: 55px;
+}
+
 .menu-section h3{
 	color: #B21509;
 	margin-bottom: 0;
@@ -131,9 +165,50 @@ body {
 	font-size: 20px;
 }
 
+#menu2 {
+	display: none;
+}
 
+#menu3 {
+	display: none;
+}
 
+.col-xs-6 {
+	padding-left: 0;
+}
 
+.right-drinks {
+	margin-left: 0;
+}
+
+*:focus {
+	outline: none !important;
+}
+
+.btn-group {
+	margin-top: 40px;
+	width: 50%;
+	min-width: 250px;
+}
+
+.btn {
+	width: 33%;
+}
+
+.btn-group button {
+	background-color: white;
+	border: 1px solid black;
+}
+
+.btn-group button:hover {
+	background-color: #B21509;
+	color: white;
+}
+
+#menubutton {
+	background-color: #B21509;
+	color: white;
+}
 
 
 

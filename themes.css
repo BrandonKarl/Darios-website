@@ -36,13 +36,13 @@ body {
 
 /* Changes outline of mobile menu to white */
 .navbar-inverse .navbar-toggle {
-  background-color: #AF6802;
+  background-color: #B21509;
   border-color: white;
 }
 
 /* Changes mobile menu hover to beige */
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-	background-color: #AF6802;
+	background-color: #B21509;
 }
 
 /* Removes padding on brand */

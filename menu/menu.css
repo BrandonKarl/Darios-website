@@ -210,6 +210,28 @@ body {
 	color: white;
 }
 
+#pizza-h3 {
+	color: #B21509;
+	margin-bottom: 0;
+	display: block;
+	margin-top: 26px;
+}
+
+#pizza-hr {
+	margin-top: 5px;
+	border: solid 1px #B21509;
+}
+
+
+/*#pizza-right {
+	margin-top: 70px;
+}
+
+@media only screen and (max-width: 767px) {
+    #pizza-right{
+    	margin-top: 0;
+    }
+}*/
 
 
 

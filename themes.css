@@ -43,7 +43,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a:hover .nav-link {
-	border-bottom: 1px solid red;
+	border-bottom: 1px solid #B21509;
 }
 
 /* Size of call text */
@@ -205,7 +205,7 @@ body {
 
 #hours-line {
 	margin-top: 10px;
-	border-color: red;
+	border-color: #B21509;
 }
 
 

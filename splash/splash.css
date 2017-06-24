@@ -1,26 +1,36 @@
+/* Font for enitre page */
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
 /* No links have decoration */
 a {
     text-decoration: none;
 }
 
 /* Flex container */
-.splash {
+#splash {
     display: flex;
     height: 87vh;
-    justify-content: center;
     flex-direction: column;
 }
 
 /* Which location were you looking for? */
-.splash-top {
+#splash-top {
     margin: auto;
     text-align: center;
- /*   font-family: 'Raleway', sans-serif; */
-    font-family: 'Josefin Slab', serif;
     font-weight: 100;
     margin-top: 20px;
     margin-bottom: 10px;
-  /*  font-style: italic; */
+}
+
+/* Image link class */
+.splash-image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 40%;
+    transition: opacity .3s linear;
 }
 
 /* First image container */
@@ -29,15 +39,8 @@ a {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('lunenburg.png');
-    background-position: 70% 50%;
     background-size: cover;
-	background-repeat: no-repeat;
-    display: flex;
-    height: 40%;
     width: 100%;
-    opacity: 1;
-    transition: opacity .3s linear;
-    z-index: 99;
 }
 
 /* Change opacity on hover */
@@ -51,19 +54,17 @@ a {
 }
 
 /* Format text */
-.splash-text {
+.splash-body h1 {
     color: white;
 	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
 	             0px 8px 13px rgba(0,0,0,0.1),
 	             0px 18px 23px rgba(0,0,0,0.1);
     text-align: center;
-    flex: 1;
-    justify-content: center;
     margin: auto;
 }
 
-/* Header, restraunt name*/
-.head {
+/* Resteraunt name */
+.splash-body h1:first-of-type {
     font-size: 50px;
 }
 
@@ -73,15 +74,7 @@ a {
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url('fitchburg.png');
-    background-position: 70% 50%;
-    background-size: cover;
-	background-repeat: no-repeat;
-
     margin-top: 5px;
-    display: flex;
-    height: 40%;
-    opacity: 1;
-    transition: opacity .3s linear;
 }
 
 /* Change opacity on hover */
@@ -90,7 +83,7 @@ a {
 }
 
 /* Make all links the size of the image */
-.link {
+.splash-image a {
     width: 100%;
     display: flex;
 }
@@ -102,7 +95,6 @@ a {
     max-width: 30px; 
     max-height: 30px;
     margin: 0 auto;
-    display: block;
     margin-bottom: 10px;
     margin-top: 10px;
 }

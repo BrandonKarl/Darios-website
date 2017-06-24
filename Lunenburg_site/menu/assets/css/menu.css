@@ -1,0 +1,145 @@
+/* Body Color */
+body {
+	background-color: white;
+	font-family: 'Quicksand', sans-serif; 
+}
+
+/* Never outline on focus */
+*:focus {
+	outline: none !important;
+}
+
+/* Placing button group in correct place */
+.btn-group {
+	margin-top: 40px;
+	width: 50%;
+	min-width: 250px;
+}
+
+/* Each button one-third of gorup */
+.btn {
+	width: 33%;
+}
+
+/* Each button not selected, black and white */
+.btn-group button {
+	background-color: white;
+	border: 1px solid black;
+}
+
+/* Hover button, red and white */
+.btn-group button:hover {
+	background-color: #B21509;
+	color: white;
+}
+
+/* Start menu button as red and white */
+#menubutton {
+	background-color: #B21509;
+	color: white;
+}
+
+/* Pizza header */
+#pizza-h3 {
+	color: #B21509;
+	margin-bottom: 0;
+	display: block;
+	margin-top: 26px;
+}
+
+/* Line under pizza */
+#pizza-hr {
+	margin-top: 5px;
+	border: solid 1px #B21509;
+}
+
+#menu h1{
+	color: black;
+}
+
+#menu-hr {
+	margin: 0;
+	border: solid 3px black;
+}
+
+#menu .col-sm-6 {
+	padding-left: 0;
+}
+
+#menu h1 {
+	font-size: 55px;
+}
+
+#pizza h1{
+	color: black;
+}
+
+#menu-hr {
+	margin: 0;
+	border: solid 3px black;
+}
+
+#pizza .col-sm-6 {
+	padding-left: 0;
+}
+
+#pizza h1 {
+	font-size: 55px;
+}
+
+#drinks h1{
+	color: black;
+}
+
+#menu-hr {
+	margin: 0;
+	border: solid 3px black;
+}
+
+#drinks .col-sm-6 {
+	padding-left: 0;
+}
+
+#drinks h1 {
+	font-size: 55px;
+}
+
+.menu-section h3{
+	color: #B21509;
+	margin-bottom: 0;
+}
+
+.menu-section hr {
+	margin-top: 5px;
+	border: solid 1px #B21509;
+}
+
+.menu-section p {
+	font-size: 20px;
+}
+
+#pizza {
+	display: none;
+}
+
+#drinks {
+	display: none;
+}
+
+.col-xs-6 {
+	padding-left: 0;
+}
+
+.right-drinks {
+	margin-left: 0;
+}
+
+
+
+
+
+
+
+
+
+

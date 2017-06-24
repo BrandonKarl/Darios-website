@@ -38,7 +38,7 @@ a {
     background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('lunenburg.png');
+    ), url('../images/lunenburg.png');
     background-size: cover;
     width: 100%;
 }
@@ -73,7 +73,7 @@ a {
     background-image: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
-    ), url('fitchburg.png');
+    ), url('../images/fitchburg.png');
     margin-top: 5px;
 }
 

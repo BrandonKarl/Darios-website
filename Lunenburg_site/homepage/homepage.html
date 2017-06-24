@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dario's Brick Oven Ristorante!</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="../shared_files/css/navbar.css">
+	<link rel="stylesheet" href="./assets/css/lunenburg_home.css">
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Oleo+Script" rel="stylesheet">
+ 	<link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<!-- Enables mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-static-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#"><img src="../shared_files/images/lunenburg_logo.png" alt="logo"></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      	<li><a href="#"><span id="call"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Call</span></a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+			<li><a href="../menu/menu.html"><span class="nav-link">Menu</span></a></li>
+	        <li><a href="../gallery/gallery.html"><span class="nav-link">Gallery</span></a></li>
+	        <li><a href="#"><span class="nav-link">Feedback</span></a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<!-- Bar with phone number and address -->
+	<div id="info-bar">
+		<div class="container">
+			<div clas="row">
+				<div class="col-sm-6 text-center">
+					<p><span id="phone">(978) 582-4300</span></p>
+				</div>
+				<div class="col-sm-6 text-center">
+					<p>310 Massachusetts Ave, Lunenburg, MA</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Main advertisement, name/slogan -->
+	<div id="advertisement">
+		<div id="advertisement-container">
+			<h1>Dario's</h1>
+			<h2>Ristorante and Brick Oven</h2>
+			<h3>Where hand-made is</h3>
+			<h3><span>Made!</span></h3>
+		</div>
+	</div>
+	
+	<!-- Paragraph, says if open or not -->
+	<div class="container">
+		<p id="currently">Currently: <span id="status">Open</span></p>
+	</div>
+
+	<!-- Area With map and hours -->
+	<div id="map-hours">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-7">
+					<div id="map"></div>
+				</div>
+				<div class="col-md-5">
+					<div id="hours">
+						<h3>Hours</h3>
+						<hr>
+						<h4>Monday - Thursday</h4>
+						<h5>11am - 9pm</h5>
+						<h4>Friday - Saturday</h4>
+						<h5>11am - 10pm</h5>
+						<h4>Sunday</h4>
+						<h5>12pm - 9pm</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" ssintegrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Currently Open or closed -->
+	<script src="./assets/js/date.js">
+	</script>
+
+	<!-- Google map -->
+	<script src="./assets/js/map.js">
+	</script>
+
+	<!-- Google maps API -->
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2DnAbcXwgfIW1C_g_cMR_ajqhLZa0qwg&callback=initMap"></script>
+
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

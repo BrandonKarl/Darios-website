@@ -39,7 +39,7 @@
 	border-bottom: 1px solid #B21509;
 }
 
-/* Size of call text */
+/* Size of call glyphicon */
 #call {
 	font-size: 20px;
 }
@@ -70,6 +70,7 @@
 	text-align: center;
 }
 
+/* Bar below navbar */
 #info-bar {
 	background-color: #B21509;
 	color: white;
@@ -78,6 +79,7 @@
 	             0px 18px 23px rgba(0,0,0,0.1);
 }
 
+/* Text in info-bar */
 #info-bar p {
 	margin: 0;
 	font-size: 18px;
@@ -86,6 +88,7 @@
 	font-family: 'Quicksand', sans-serif;
 }
 
+/* Dont display phone number on mobile */
 @media only screen and (max-width: 767px) {
     #phone {
     	display: none;

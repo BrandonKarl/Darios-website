@@ -1,16 +1,9 @@
 /* Body Color */
 body {
-	/* background-color: #FCCB85; */
-		background-color: white;
+    background-color: white;
 }
 
-#gallery-head {
-	font-family: 'Quicksand', sans-serif;
-	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
-}
-
+/* Slogan for page */
 #gallery-slogan {
 	font-family: 'Quicksand', sans-serif;
 	text-align: center;
@@ -18,29 +11,30 @@ body {
 	margin-bottom: 30px;
 }
 
+/* Red lettering */
 #gallery-slogan span {
 	font-weight: 800;
 	color: #B21509;
 }
 
+/* Make all the images the right size and format */
 .col-sm-6 img {
 	width: 100%;
 	margin-bottom: 20px;
 	transition: transform .5s
 }
 
-.caption h3 {
-	margin: 0;
-}
-
+/* Modal image class*/
 .imgm {
 	transition: 0.3s;
 }
 
+/* Mouse over modal image */
 .imgm:hover {
 	opacity: 0.7;
 }
 
+/* Modal area */
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
@@ -63,6 +57,7 @@ body {
     max-width: 700px;
 }
 
+/* Close button */
 .close {
     position: absolute;
     top: 15px;
@@ -73,6 +68,7 @@ body {
     transition: 0.3s;
 }
 
+/* Hover on close button */
 .close:hover,
 .close:focus {
     color: #bbb;

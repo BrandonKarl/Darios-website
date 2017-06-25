@@ -53,83 +53,50 @@ body {
 	border: solid 1px #B21509;
 }
 
-#menu h1{
+/* Menu headers */
+.menu-block h1{
 	color: black;
-}
-
-#menu-hr {
-	margin: 0;
-	border: solid 3px black;
-}
-
-#menu .col-sm-6 {
-	padding-left: 0;
-}
-
-#menu h1 {
 	font-size: 55px;
 }
 
-#pizza h1{
-	color: black;
-}
-
-#menu-hr {
-	margin: 0;
-	border: solid 3px black;
-}
-
-#pizza .col-sm-6 {
+/* Align text with header */
+.menu-block .col-sm-6 {
 	padding-left: 0;
 }
 
-#pizza h1 {
-	font-size: 55px;
-}
-
-#drinks h1{
-	color: black;
-}
-
-#menu-hr {
-	margin: 0;
-	border: solid 3px black;
-}
-
-#drinks .col-sm-6 {
-	padding-left: 0;
-}
-
-#drinks h1 {
-	font-size: 55px;
-}
-
+/* Section names */
 .menu-section h3{
 	color: #B21509;
 	margin-bottom: 0;
 }
 
+/* Lines under sections */
 .menu-section hr {
 	margin-top: 5px;
 	border: solid 1px #B21509;
 }
 
+/* Actual menu items */
 .menu-section p {
 	font-size: 20px;
 }
 
+/* Hide pizza initially */
 #pizza {
 	display: none;
 }
 
+/* Hide drinks initially */
 #drinks {
 	display: none;
 }
 
+/* Align on mobile */
 .col-xs-6 {
 	padding-left: 0;
 }
 
+/* Align drinks within contaier */
 .right-drinks {
 	margin-left: 0;
 }

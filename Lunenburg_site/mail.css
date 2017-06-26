@@ -1,0 +1,32 @@
+/* Header for feedback */
+#feedback-head {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Form itself */
+#mail-form {
+	width: 80%;
+	max-width: 500px;
+	margin: auto;
+}
+
+/* Google captcha */
+#captcha {
+	margin-bottom: 40px;
+}
+
+/* Submit button */
+.btn-primary:hover {
+    background-color: #B21509;
+    border-color: #B21509;
+}
+
+.btn-primary {
+		color: #B21509;
+    background-color: white;
+    border-color: #B21509;
+}

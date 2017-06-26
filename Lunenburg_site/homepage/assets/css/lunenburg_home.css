@@ -104,9 +104,16 @@ body {
 	border-color: #B21509;
 }
 
+.gm-style-iw {
+    height: 50px;
+    width: 20px;
+}
 
+.gm-style-iw + div {display: none;}
 
-
+.images {
+	max-height: 100%
+}
 
 
 

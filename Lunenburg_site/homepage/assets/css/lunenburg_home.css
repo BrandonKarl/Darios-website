@@ -79,7 +79,7 @@ body {
 
 @media only screen and (max-width: 990px) {
 	.item-section {
-		margin-top: 100px;
+		margin-top: 40px;
 		text-align: center;
 	}
 	#currently {
@@ -111,9 +111,13 @@ body {
     width: 20px;
 }
 
+#about {
+	margin-bottom: 50px;
+}
+
 #about h3 {
 	text-align: center;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
 #about p {
@@ -124,12 +128,45 @@ body {
 	letter-spacing: 1px;
 	text-align: left;
 	margin: auto;
-	max-width: 80%;
+	max-width: 85%;
 	display: block;
 }
 
+/* Remove x from google map */
 .gm-style-iw + div {display: none;}
 
+/* Google map image */
 .images {
 	max-height: 100%
 }
+
+/* Footer */
+#footer {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #B21509;
+}
+
+#footer .col-xs-4 {
+	height: 50px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#footer p {
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Facebook logo */
+.fa {
+	font-size: 30px !important;
+}
+
+

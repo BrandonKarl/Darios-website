@@ -70,6 +70,12 @@ body {
 	color: black;
 }
 
+#about {
+	color: black;
+	font-family: 'Quicksand', sans-serif; 
+	color: black;
+}
+
 #hours h5 {
 	font-size: 30px;
 	margin-bottom: 30px;
@@ -78,6 +84,7 @@ body {
 
 @media only screen and (max-width: 990px) {
 	#hours {
+		margin-top: 60px;
 		text-align: center;
 	}
 	#currently {

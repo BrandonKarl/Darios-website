@@ -43,7 +43,7 @@
     		$headers="From: feedback@darios.com";
 
     		if(mail($to, $subject, $message, $headers)){
-    			header("Location: ./homepage/homepage.html");
+                header("Location: ../../../homepage/homepage.html");
     		}
     		else{
     			echo "Something went wrong!";

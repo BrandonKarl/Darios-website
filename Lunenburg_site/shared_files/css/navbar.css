@@ -2,6 +2,11 @@
 .navbar-inverse {
 	background-color: white;
 	margin: 0;
+	border: none !important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
 }
 
 /* Changes links to white */

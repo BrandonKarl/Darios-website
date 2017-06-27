@@ -49,7 +49,7 @@ body {
 
 /* Currently open or not*/
 #currently {
-	font-size: 25px;
+	font-size: 15px;
 	font-family: 'Josefin Slab', serif; 
 }
 
@@ -64,49 +64,44 @@ body {
 }
 
 /* Hours div */
-#hours {
+.item-section {
 	color: black;
 	font-family: 'Quicksand', sans-serif; 
 	color: black;
 }
 
-#about {
-	color: black;
-	font-family: 'Quicksand', sans-serif; 
-	color: black;
-}
 
-#hours h5 {
+.item-section h5 {
 	font-size: 30px;
 	margin-bottom: 30px;
 	margin-top: 0;
 }
 
 @media only screen and (max-width: 990px) {
-	#hours {
-		margin-top: 60px;
+	.item-section {
+		margin-top: 100px;
 		text-align: center;
 	}
 	#currently {
 		text-align: center;
 		margin-bottom: 20px;
 	}
-	#hours h5 {
+	.item-section h5 {
 		margin-bottom: 15px;
 	}
 }
 
-#hours h3 {
+.item-section h3 {
 	margin-top: 0;
 	font-size: 45px;
 }
 
-#hours h4 {
+.item-section h4 {
 	font-size: 25px;
 	margin-bottom: 0;
 }
 
-#hours hr {
+.item-section hr {
 	margin-top: 10px;
 	border-color: #B21509;
 }
@@ -116,19 +111,25 @@ body {
     width: 20px;
 }
 
+#about h3 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+#about p {
+	color: black;
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: left;
+	margin: auto;
+	max-width: 80%;
+	display: block;
+}
+
 .gm-style-iw + div {display: none;}
 
 .images {
 	max-height: 100%
 }
-
-
-
-
-
-
-
-
-
-
-

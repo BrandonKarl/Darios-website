@@ -1,0 +1,29 @@
+/* Footer */
+#footer {
+	font-family: 'Quicksand', sans-serif;
+	background-color: #B21509;
+	margin-top: 40px;
+}
+
+#footer .col-xs-4 {
+	height: 50px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#footer p {
+	margin-bottom: 0;
+	font-size: 15px;
+}
+
+#footer a {
+	text-decoration: none;
+	color: white;
+}
+
+/* Facebook logo */
+.fa {
+	font-size: 30px !important;
+}

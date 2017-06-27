@@ -15,8 +15,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
 
 	<!-- Local styles -->
-	<link rel="stylesheet" href="./shared_files/css/navbar.css">
-	<link rel="stylesheet" href="mail.css">
+	<link rel="stylesheet" href="../shared_files/css/footer.css">
+	<link rel="stylesheet" href="../shared_files/css/navbar.css">
+	<link rel="stylesheet" href="./assets/css/feedback.css">
 
 	<!-- Enable mobile -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -34,7 +35,7 @@
 	        <span class="icon-bar"></span>
 	        <span class="icon-bar"></span>
 	      </button>
-	      <a class="navbar-brand" href="./homepage/homepage.html"><img src="./shared_files/images/lunenburg_logo.png" alt="logo"></a>
+	      <a class="navbar-brand" href="../homepage/homepage.html"><img src="../shared_files/images/lunenburg_logo.png" alt="logo"></a>
 	    </div>
 
 	    <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,8 +44,8 @@
 	      	<li><a href="#"><span id="call"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Call</span></a></li>
 	      </ul>
 	      <ul class="nav navbar-nav navbar-right">
-			<li><a href="./menu/menu.html"><span class="nav-link">Menu</span></a></li>
-	        <li><a href="./gallery/gallery.html"><span class="nav-link">Gallery</span></a></li>
+			<li><a href="../menu/menu.html"><span class="nav-link">Menu</span></a></li>
+	        <li><a href="../gallery/gallery.html"><span class="nav-link">Gallery</span></a></li>
 	        <li><a href="#"><span class="nav-link">Feedback</span></a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
@@ -79,7 +80,7 @@
 					<!-- Start form -->
 					<div id="mail-form">
 						<!-- Post request to php script -->
-						<form action="mail_handler.php" method="post" name="form">
+						<form action="./assets/php/feedback_handler.php" method="post" name="form">
 
 							<div class="form-group">
 								<input type="text" name="name" class="form-control" placeholder="Name" required><br>
@@ -109,6 +110,23 @@
 
 			</div>
 
+		</div>
+	</div>
+
+		<!-- Footer -->
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 text-center">
+					<p>Created by CE Consulting</p>
+				</div>
+				<div class="col-xs-4 text-center">
+					<p>&copy; Dario's 2017</p>
+				</div>
+				<div class="col-xs-4 text-center">
+					<a href="http://facebook.com"><i class="fa fa-facebook-official"></i></a>
+				</div>
+			</div>
 		</div>
 	</div>
 

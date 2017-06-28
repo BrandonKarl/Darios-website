@@ -37,29 +37,39 @@ textarea {
 
 /* Submit button */
 .btn-primary:hover {
-    background-color: #B21509;
-    border-color: #B21509;
+	background-color: #B21509;
+  border-color: #B21509;
 }
 
 .btn-primary:active {
-    background-color: #B21509;
-    border-color: #B21509;
+  background-color: #B21509;
+  border-color: #B21509;
 }
 
 .btn-primary:focus {
-    background-color: #B21509;
-    border-color: #B21509;
+  background-color: #B21509;
+  border-color: #B21509;
 }
 
 .btn-primary:active:focus {
-    background-color: #B21509;
-    border-color: #B21509;
+  background-color: #B21509;
+  border-color: #B21509;
+}
+
+.btn-primary:disabled {
+	color: white;
+	background-color: #B21509;
+}
+
+.btn-primary:disabled:hover {
+	color: white;
+	background-color: #B21509;
 }
 
 .btn-primary {
-		color: #B21509;
-    background-color: white;
-    border-color: #B21509;
+	color: #B21509;
+  background-color: white;
+  border-color: #B21509;
 }
 
 /* All feedback in a panel */

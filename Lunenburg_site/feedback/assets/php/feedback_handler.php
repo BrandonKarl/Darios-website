@@ -31,7 +31,7 @@
         echo '<p>Please go back and make sure you check the security CAPTCHA box.</p><br>';
     } else {
         // If CAPTCHA is successfully completed...
-        if(isset($_POST['submit'])) {
+        
     		$name=$_POST['name'];
     		$email=$_POST['email'];
     		$phone=$_POST['phone'];
@@ -45,9 +45,7 @@
     		if(mail($to, $subject, $message, $headers)){
                 header("Location: ../../../homepage/homepage.html");
     		}
-    		else{
-    			echo "Something went wrong!";
-    		}
-	    }
+    		
+	    
     }
 ?>

@@ -119,8 +119,13 @@
 	<script>
 		$("form").on("submit", function(e) {
 			e.preventDefault();
-			$(".btn").prop("disabled", true);
-			$(".btn").attr("value", "Feedback Submitted!");
+			if(grecaptcha.getResponse().length !== 0) {
+				$(".btn").prop("disabled", true);
+				$(".btn").attr("value", "Feedback Submitted!");
+			}
+			else {
+				$(".btn").attr("value", "Click captcha");
+			}
 			$.ajax({
 				type: "post",
 				url: "./assets/php/feedback_handler.php",

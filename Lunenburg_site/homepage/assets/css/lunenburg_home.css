@@ -72,12 +72,17 @@ body {
 	color: green;
 }
 
+#map-hours {
+	animation: slideleft;
+	animation-duration: 2s;
+}
+
 /* Google map */
 #map {
 	height: 400px;
 	width: 100%;
-	animation: slideright;
-	animation-duration: 2s;
+/*	animation: slideright;
+	animation-duration: 2s;*/
 }
 
 @keyframes slideright {
@@ -92,15 +97,15 @@ body {
   }
 }
 
-#hours {
+/*#hours {
 	animation: slideleft;
 	animation-duration: 2s;
-}
+}*/
 
 @keyframes slideleft {
   from {
     opacity: 0;
-    transform: translateX(20%);
+    transform: translateX(50%);
   }
 
   to {

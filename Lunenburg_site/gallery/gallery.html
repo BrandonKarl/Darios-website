@@ -64,41 +64,43 @@
 	</div>
 
 	<!-- Body of the page -->
-	<div class="container">
+	<div id="food">
+		<div class="container">
 
-		<h4 id="gallery-slogan">Instead of talking about the food, we like to let the freshness and flavor <span>speak for themselves.</span></h4>
+			<h4 id="gallery-slogan">Instead of talking about the food, we like to let the freshness and flavor <span>speak for themselves.</span></h4>
 
-		<!-- Photo grid -->
-		<div class="row">
-			<div class="col-sm-6 col-md-4">
-					<img class="imgm" src="./assets/images/risotto_abruzi_lg.jpg" alt="">
+			<!-- Photo grid -->
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+						<img id="first" class="imgm" src="./assets/images/risotto_abruzi_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/risotto_abruzi_2_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/chicken_marsala_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/set_table_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/beer_selections_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/wine_selections_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/preparation_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/pizza_toss_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/pizza_toss_2_lg.jpg" alt="">
+				</div>
 			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/risotto_abruzi_2_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/chicken_marsala_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/set_table_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/beer_selections_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/wine_selections_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/preparation_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/pizza_toss_lg.jpg" alt="">
-			</div>
-			<div class="col-sm-6 col-md-4">
-				<img class="imgm" src="./assets/images/pizza_toss_2_lg.jpg" alt="">
-			</div>
+
 		</div>
-
 	</div>
 
 	<!-- Modal image popout -->
@@ -134,6 +136,15 @@
 
 	<!-- jquery -->
 	<script src="https://code.jquery.com/jquery-3.2.1.js" ssintegrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+	<script>
+		$(window).on("load", function(){
+			window.sr = ScrollReveal();
+			sr.reveal('#food .col-sm-6', {duration: 1500, viewFactor: 0.00, reset: true})})
+	</script>
 
 	<!-- Bootstrap -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

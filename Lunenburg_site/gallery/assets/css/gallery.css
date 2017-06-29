@@ -9,6 +9,20 @@ body {
 	text-align: center;
 	font-size: 40px;
 	margin-bottom: 30px;
+    animation: slidedown;
+    animation-duration: 2s;
+}
+
+@keyframes slidedown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 /* Red lettering */
@@ -22,6 +36,27 @@ body {
 	width: 100%;
 	margin-bottom: 20px;
 	transition: transform .5s
+}
+
+#first {
+    
+}
+
+/*.row img {
+    animation: fade;
+    animation-duration: 2s;
+}*/
+
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
 }
 
 /* Modal image class*/

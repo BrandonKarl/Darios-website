@@ -51,6 +51,26 @@ body {
 #pizza-hr {
 	margin-top: 5px;
 	border: solid 1px #B21509;
+	width: calc(100% - 10px);
+	float: left;
+}
+
+/* Menu block animation */
+.menu-block {
+	animation: slideup;
+	animation-duration: 2s;
+}
+
+@keyframes slideup {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 /* Menu headers */

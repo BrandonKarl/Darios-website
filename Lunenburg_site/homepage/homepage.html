@@ -142,6 +142,16 @@
 	<script src="./assets/js/map.js">
 	</script>
 
+	<!-- Scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+	<script>
+		window.sr = ScrollReveal();
+		sr.reveal('#about', {duration: 1200, distance: '100px', scale: 0});
+		sr.reveal('.col-md-7', {duration: 2000, distance: '250px', scale: 0, origin: 'right'})
+		sr.reveal('#hours', {duration: 2000, distance: '250px', scale: 0, origin: 'right'})
+	</script>
+
 	<!-- Google maps API -->
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2DnAbcXwgfIW1C_g_cMR_ajqhLZa0qwg&callback=initMap"></script>
 

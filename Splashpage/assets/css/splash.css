@@ -41,6 +41,7 @@ a {
     ), url('../images/lunenburg.png');
     background-size: cover;
     width: 100%;
+    background-position: center;
 }
 
 /* Change opacity on hover */

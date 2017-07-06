@@ -7,8 +7,8 @@ body {
 #advertisement {
 	height: 500px;
 	background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
     ), url('../images/wine_selections_lg.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -22,6 +22,11 @@ body {
 	justify-content: center;
 	align-items: center;
 	margin-bottom: 10px;
+}
+
+#advertisement img {
+	max-width: 90%;
+	width: 1000px;
 }
 
 /* Advertisement header */

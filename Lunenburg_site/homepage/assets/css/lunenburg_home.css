@@ -69,13 +69,13 @@ body {
 
 /* Currently open or not*/
 #currently {
-	font-size: 25px;
-	font-family: 'Josefin Slab', serif; 
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
 	color: white;
 }
 
 #status {
-	color: green;
+	
 }
 
 /* Google map */
@@ -168,5 +168,7 @@ body {
 #separator {
 	background-color: #B21509;
 	margin-bottom: 15px;
+	height: 30px;
+	font-size: 18px;
 }
 

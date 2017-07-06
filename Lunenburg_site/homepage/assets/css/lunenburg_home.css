@@ -21,7 +21,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 10px;
+	/* margin-bottom: 10px; */
 }
 
 #advertisement img {
@@ -71,6 +71,7 @@ body {
 #currently {
 	font-size: 25px;
 	font-family: 'Josefin Slab', serif; 
+	color: white;
 }
 
 #status {
@@ -163,5 +164,9 @@ body {
 	display: block;
 }
 
-
+/* Container for the open or closed status */
+#separator {
+	background-color: #B21509;
+	margin-bottom: 15px;
+}
 

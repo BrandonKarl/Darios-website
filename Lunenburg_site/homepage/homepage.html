@@ -148,8 +148,20 @@
 	<script>
 		window.sr = ScrollReveal();
 		sr.reveal('#about', {duration: 1200, distance: '100px', scale: 0});
-		sr.reveal('.col-md-7', {duration: 2000, distance: '250px', scale: 0, origin: 'right'})
-		sr.reveal('#hours', {duration: 2000, distance: '250px', scale: 0, origin: 'right'})
+
+		if($(window).width() > 500) {
+			sr.reveal('.col-md-7', {duration: 2000, distance: '250px', scale: 0, origin: 'right'})
+		}
+		else {
+			sr.reveal('.col-md-7', {duration: 2000})
+		}
+
+		if($(window).width() > 500) {
+			sr.reveal('#hours', {duration: 2000, distance: '250px', scale: 0, origin: 'right'})
+		}
+		else {
+			sr.reveal('#hours', {duration: 2000, distance: '20px', scale: 0, origin: 'top'})
+		}
 	</script>
 
 	<!-- Google maps API -->

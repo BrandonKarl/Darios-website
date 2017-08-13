@@ -1,0 +1,97 @@
+/* Header for feedback */
+#feedback-head {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Form itself */
+#mail-form {
+	width: 80%;
+	max-width: 500px;
+	margin: auto;
+}
+
+/* Resize testarea */
+textarea {
+	resize: none;
+	overflow: scroll;
+}
+
+/* Google captcha */
+#captcha {
+	margin-bottom: 30px;
+}
+
+/* Fix sizing on captcha */
+.g-recaptcha div { margin-left: auto; margin-right: auto;}
+
+@media only screen and (max-width: 420px) {
+	.g-recaptcha {
+	transform:scale(0.81);
+	transform-origin: 0;
+	}
+}
+
+/* Submit button */
+.btn-primary:hover {
+	background-color: #B21509;
+  border-color: #B21509;
+}
+
+.btn-primary:active {
+  background-color: #B21509;
+  border-color: #B21509;
+}
+
+.btn-primary:focus {
+  background-color: #B21509;
+  border-color: #B21509;
+}
+
+.btn-primary:active:focus {
+  background-color: #B21509;
+  border-color: #B21509;
+}
+
+.btn-primary:disabled {
+	color: white;
+	background-color: #B21509;
+}
+
+.btn-primary:disabled:hover {
+	color: white;
+	background-color: #B21509;
+}
+
+.btn-primary {
+	color: #B21509;
+  background-color: white;
+  border-color: #B21509;
+}
+
+/* All feedback in a panel */
+.panel {
+	margin: auto;
+	margin-top: 30px;
+	min-width: 50%;
+	max-width: 90%;
+}
+
+.panel-body {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.form-group {
+	margin-bottom: 10px;
+}
+
+/* Change panel color */
+.panel-danger>.panel-heading {
+    color: white;
+    background-color: #B21509;
+    border-color: #B21509;
+}

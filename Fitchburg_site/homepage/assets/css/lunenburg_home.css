@@ -1,0 +1,174 @@
+/* Body Color */
+body {
+	background-color: white;
+}
+
+/* Main advertisement */
+#advertisement {
+	height: 500px;
+	background-image: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.7)
+    ), url('../images/wine_selections_lg.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+	font-family: 'Oleo Script', cursive;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* margin-bottom: 10px; */
+}
+
+#advertisement img {
+	max-width: 90%;
+	width: 1000px;
+}
+
+/* Advertisement header */
+#advertisement-container h1 {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 135px;
+}
+
+#advertisement-container {
+	animation: fade;
+	animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+#advertisement-container h2 {
+	margin-top: 0;
+	font-size: 60px;
+}
+
+/* Advertisement text */
+#advertisement-container h3 {
+	font-size: 30px;
+	font-style: italic;
+}
+
+/* Word "made!" */
+#advertisement-container h3 span{
+	color: #B21509;
+}
+
+/* Currently open or not*/
+#currently {
+	font-size: 20px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+}
+
+#status {
+	
+}
+
+/* Google map */
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+/* Remove x from google map */
+.gm-style-iw + div {display: none;}
+
+/* Google map image */
+.images {
+	max-height: 100%
+}
+
+/* Hours div */
+.item-section {
+	color: black;
+	font-family: 'Quicksand', sans-serif; 
+	color: black;
+}
+
+/* Item secrion tag sizes */
+.item-section h5 {
+	font-size: 30px;
+	margin-bottom: 30px;
+	margin-top: 0;
+}
+
+@media only screen and (max-width: 990px) {
+	.item-section {
+		margin-top: 40px;
+		text-align: center;
+	}
+	#currently {
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.item-section h5 {
+		margin-bottom: 15px;
+	}
+}
+
+.item-section h3 {
+	margin-top: 0;
+	font-size: 45px;
+}
+
+.item-section h4 {
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+.item-section hr {
+	margin-top: 10px;
+	border-color: #B21509;
+}
+
+.gm-style-iw {
+    height: 50px;
+    width: 20px;
+}
+
+/* About section */
+#about h3 {
+	text-align: center;
+	margin-top: 60px;
+}
+
+@media only screen and (max-width: 990px) {
+	#about h3 {
+	text-align: center;
+	}
+}
+
+#about p {
+	color: black;
+	font-family: 'Quicksand', sans-serif; 
+	font-size: 20px;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-align: left;
+	margin: auto;
+	max-width: 85%;
+	display: block;
+}
+
+/* Container for the open or closed status */
+#separator {
+	background-color: #B21509;
+	margin-bottom: 15px;
+	height: 30px;
+	font-size: 18px;
+}
+

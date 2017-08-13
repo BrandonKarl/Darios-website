@@ -1,0 +1,101 @@
+/* Changes navbar to red */
+.navbar-inverse {
+	background-color: white;
+	margin: 0;
+	border: none !important;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border: none;
+}
+
+/* Changes links to white */
+.navbar-inverse .navbar-nav>li>a {
+	color: black;
+  font-family: 'Quicksand', sans-serif;
+	font-weight: 100;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+/* Focus color */
+.navbar-inverse .navbar-nav>li>a:focus {
+	color: black;
+}
+
+/* Link hover color */
+.navbar-inverse .navbar-nav>li>a:hover {
+	color: black;
+}
+
+/* Phone icon */
+.navbar-inverse .navbar-nav>li>a>span>span{
+	font-size: 12px;
+  margin-right: 5px;
+  font-size: 17px;
+}
+
+/* Navbar links*/
+.nav-link {
+	padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover .nav-link {
+	border-bottom: 1px solid #B21509;
+}
+
+/* Size of call glyphicon */
+#call {
+	font-size: 20px;
+}
+
+/* Changes outline of mobile menu to white */
+.navbar-inverse .navbar-toggle {
+  background-color: #B21509;
+  border-color: white;
+}
+
+/* Changes mobile menu hover to beige */
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+	background-color: #B21509;
+}
+
+/* Removes padding on brand */
+.navbar-brand {
+	padding: 0;
+}
+
+/* Fits image to brand size */
+.navbar-brand img {
+	height: 100%;
+}
+
+/* Center navlinks */
+.navbar-collapse {
+	text-align: center;
+}
+
+/* Bar below navbar */
+#info-bar {
+	background-color: #B21509;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	             0px 8px 13px rgba(0,0,0,0.1),
+	             0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* Text in info-bar */
+#info-bar p {
+	margin: 0;
+	font-size: 18px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* Dont display phone number on mobile */
+@media only screen and (max-width: 767px) {
+    #phone {
+    	display: none;
+    }
+}

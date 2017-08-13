@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dario's Brick Oven Ristorante!</title>
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="../shared_files/css/footer.css">
+	<link rel="stylesheet" href="../shared_files/css/navbar.css">
+	<link rel="stylesheet" href="./assets/css/gallery.css">
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Enables mobile -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-inverse navbar-static-top">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="../homepage/homepage.html"><img src="../shared_files/images/lunenburg_logo.png" alt="logo"></a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      <ul class="nav navbar-nav">
+	      	<li><a href="#"><span id="call"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>Call</span></a></li>
+	      </ul>
+	      <ul class="nav navbar-nav navbar-right">
+			<li><a href="../menu/menu.html"><span class="nav-link">Menu</span></a></li>
+	        <li><a href="#"><span class="nav-link">Gallery</span></a></li>
+	        <li><a href="../feedback/feedback.html"><span class="nav-link">Feedback</span></a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<!-- Bar with phone number and address -->
+	<div id="info-bar">
+		<div class="container">
+			<div clas="row">
+				<div class="col-sm-6 text-center">
+					<p><span id="phone">(978) 582-4300</span></p>
+				</div>
+				<div class="col-sm-6 text-center">
+					<p>310 Massachusetts Ave, Lunenburg, MA</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Body of the page -->
+	<div id="food">
+		<div class="container">
+
+			<h4 id="gallery-slogan">Instead of talking about the food, we like to let the freshness and flavor <span>speak for themselves.</span></h4>
+
+			<!-- Photo grid -->
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+						<img id="first" class="imgm" src="./assets/images/risotto_abruzi_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/risotto_abruzi_2_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/chicken_marsala_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/set_table_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/beer_selections_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/wine_selections_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/preparation_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/pizza_toss_lg.jpg" alt="">
+				</div>
+				<div class="col-sm-6 col-md-4">
+					<img class="imgm" src="./assets/images/pizza_toss_2_lg.jpg" alt="">
+				</div>
+			</div>
+
+		</div>
+	</div>
+
+	<!-- Modal image popout -->
+	<div id="myModal" class="modal">
+
+	  <!-- The Close Button -->
+	  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+	  <!-- Modal Content (The Image) -->
+	  <img class="modal-content" id="img01">
+	  
+	</div>
+
+		<!-- Footer -->
+	<div id="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4 text-center">
+					<p>CE Consulting</p>
+				</div>
+				<div class="col-xs-4 text-center">
+					<p>&copy; Dario's 2017</p>
+				</div>
+				<div class="col-xs-4 text-center">
+					<a href="http://facebook.com/dariosbrickoven"><i class="fa fa-facebook-official"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Javascript for modal image -->
+	<script src="./assets/js/modal_images.js"></script>
+
+	<!-- jquery -->
+	<script src="https://code.jquery.com/jquery-3.2.1.js" ssintegrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+
+	<!-- Scroll reveal -->
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+	<script>
+			window.sr = ScrollReveal();
+			sr.reveal('#food .col-sm-6', {duration: 1500, viewFactor: 0.00, reset: true})
+	</script>
+
+	<!-- Bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -3,8 +3,8 @@ function initMap() {
 		scrollwheel: false,
 		zoom: 15,
 		center: {
-			lat: 42.592633,
-			lng: -71.7581613
+			lat: 42.5850809,
+			lng: -71.8147525
 		}
 	};
 
@@ -12,8 +12,8 @@ function initMap() {
 
 	var marker = new google.maps.Marker({
 		position: {
-			lat: 42.592633,
-			lng: -71.7581613
+			lat: 42.5850809,
+			lng: -71.8147525
 		},
 		map: map,
 		icon: '<i></i>'

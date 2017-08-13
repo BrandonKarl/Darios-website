@@ -75,7 +75,7 @@ body {
 }
 
 #status {
-	
+
 }
 
 /* Google map */
@@ -95,14 +95,14 @@ body {
 /* Hours div */
 .item-section {
 	color: black;
-	font-family: 'Quicksand', sans-serif; 
+	font-family: 'Quicksand', sans-serif;
 	color: black;
 }
 
 /* Item secrion tag sizes */
 .item-section h5 {
 	font-size: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 	margin-top: 0;
 }
 
@@ -154,7 +154,7 @@ body {
 
 #about p {
 	color: black;
-	font-family: 'Quicksand', sans-serif; 
+	font-family: 'Quicksand', sans-serif;
 	font-size: 20px;
 	line-height: 1.5;
 	letter-spacing: 1px;
@@ -171,4 +171,3 @@ body {
 	height: 30px;
 	font-size: 18px;
 }
-

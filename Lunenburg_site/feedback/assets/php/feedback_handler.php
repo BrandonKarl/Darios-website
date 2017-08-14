@@ -37,7 +37,7 @@
     		$phone=$_POST['phone'];
     		$msg=$_POST['msg'];
 
-    		$to='famelendez6@gmail.com'; // Receiver Email ID, Replace with your email ID
+    		$to='brandonmkarl@gmail.com'; // Receiver Email ID, Replace with your email ID
     		$subject='New Feedback';
     		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
     		$headers="From: feedback@darios.com";
